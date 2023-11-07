@@ -5,7 +5,7 @@
 <head>
     <meta charset="utf-8">
     <title>Entrevista</title>
-    <link rel="stylesheet" href="{{ asset('css/interview.css') }}">
+    <link rel="stylesheet" href="{{ secure_asset('css/interview.css') }}">
 </head>
 <body>
     <div class="interview-container">
