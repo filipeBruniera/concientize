@@ -5,6 +5,12 @@
 <head>
     <meta charset="utf-8">
     <title>Entrevista</title>
+
+    <!-- For dev -->
+
+    <!-- <link rel="stylesheet" href="{{ asset('css/interview.css') }}"> -->
+
+    <!-- For production -->
     <link rel="stylesheet" href="{{ secure_asset('css/interview.css') }}">
 </head>
 <body>

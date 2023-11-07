@@ -1,5 +1,4 @@
-/* public/css/interview.css */
-
+/* Default styles for larger screens */
 body {
     background-color: #f5f5f5;
     font-family: Arial, sans-serif;
@@ -44,4 +43,40 @@ input[type="text"] {
     border: none;
     border-radius: 5px;
     cursor: pointer;
+}
+
+/* Styles for medium-sized screens */
+@media screen and (max-width: 768px) {
+    .interview-container {
+        max-width: 90%;
+    }
+
+    input[type="text"] {
+        width: 80%; /* Adjust the width to your preference */
+    }
+}
+
+/* Styles for smaller screens (e.g., mobile devices) */
+@media screen and (max-width: 480px) {
+    .interview-container {
+        max-width: 100%;
+        padding: 10px;
+    }
+
+    h2 {
+        font-size: 20px;
+    }
+
+    .form-group {
+        margin-bottom: 10px;
+    }
+
+    input[type="text"] {
+        width: 100%; /* Full width for smaller screens */
+        padding: 8px;
+    }
+
+    .btn-primary {
+        font-size: 16px;
+    }
 }
