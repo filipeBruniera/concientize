@@ -13,5 +13,6 @@ use App\Http\Controllers\InterviewController;
 | be assigned to the "web" middleware group. Make something great!
 |
 */
+Route::get('/', [InterviewController::class, 'showQuestions']);
 Route::get('/interview', [InterviewController::class, 'showQuestions']);
 Route::post('/interview', [InterviewController::class, 'storeAnswers']);
